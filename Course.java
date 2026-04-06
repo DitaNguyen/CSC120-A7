@@ -65,7 +65,7 @@ public class Course {
      */
     public static void main(String[] args) {
         Course csc120 = new Course("Object-Oriented Programming", "CSC120", "TR 10:50");
-        csc120.enroll("Jordan");
+        csc120.enroll("Dita");
         System.out.println(csc120);
     }
 }

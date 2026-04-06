@@ -63,12 +63,12 @@ public class Student {
      * Main method for testing the Student class.
      */
     public static void main(String[] args) {
-        Student ab = new Student("Ab", "9909abc", 2029);
+        Student dita = new Student("Dita", "9909abc", 2029);
         Course csc120 = new Course("OOP", "CSC120", "TR 10:50");
         
-        ab.takeCourse(csc120);
+        dita.takeCourse(csc120);
         
-        System.out.println(ab);
-        System.out.println("Enrolled in: " + ab.classes);
+        System.out.println(dita);
+        System.out.println("Enrolled in: " + dita.classes);
     }
 }

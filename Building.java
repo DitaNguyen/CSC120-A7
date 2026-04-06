@@ -59,7 +59,7 @@ public class Building implements BuildingRequirements {
      * Main method for testing the Building class
      */
     public static void main(String[] args) {
-        Building fordHall = new Building("Ford Hall", "100 Green Street Northampton, MA 01063", 4);
-        System.out.println(fordHall);
+        Building neilsonLibrary = new Building("Neilson Library", "7 Neilson Drive, Northampton, MA 01063", 4);
+        System.out.println(neilsonLibrary);
     }
 }

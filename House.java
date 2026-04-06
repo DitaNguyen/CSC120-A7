@@ -86,10 +86,10 @@ public class House extends Building implements HouseRequirements {
      * Main method for testing the House class.
      */
     public static void main(String[] args) {
-        House smith = new House("Smith House", "123 Elm St", 3, true);
+        House albright = new House("Albright House", "7 Bedford Terrace, Northampton, MA 01060", 4, false);
         // Assuming you have a Student class constructor that takes a name
-        // Student jordan = new Student("Jordan"); 
-        // smith.moveIn(jordan);
-        System.out.println(smith);
+        // Student dita = new Student("Dita"); 
+        // smith.moveIn(dita);
+        System.out.println(albright);
     }
 }
